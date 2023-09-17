@@ -714,6 +714,22 @@ input[type="number"]::-webkit-outer-spin-button {
   .means_wrap .means_text{
     margin: 0 24px;
   }
+  .bmi_components_wrap{
+    padding: 72px 39px;
+  }
+  .bmi_components_wrap .component img{
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-bottom: 32px;
+    transform: translate(0);
+  }
+  .bmi_components_wrap .component h3, .bmi_components_wrap .component p{
+    padding-left: 0;
+  }
+  .bmi_components_wrap .component p{
+    margin-bottom: 40px;
+  }
   .limitations_wrap .blocks_limit .elements{
     height: auto; 
     width: 335px;
